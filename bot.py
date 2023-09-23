@@ -15,8 +15,8 @@ sleep(5)
 
 pyautogui.PAUSE = 0 
 
-timeOfLastTicket = time() #- 3600
-timeOfLastNectar = time() #- 3600 * 1
+timeOfLastTicket = time() - 3600
+timeOfLastNectar = time() - 3600 * 1
 
 def resetCharacter():
     if imageRecognition.isDisconnected():
@@ -558,7 +558,7 @@ def nectar():
     pyautogui.keyDown('5')
     sleep(0.1)
     pyautogui.keyUp('5')
-    '''
+    
     pyautogui.keyDown('d')
     sleep(5)
     pyautogui.keyUp('d')
@@ -631,7 +631,7 @@ def nectar():
     pyautogui.keyDown('6')
     sleep(0.1)
     pyautogui.keyUp('6')
-    '''
+    
     sleep(1)
     global timeOfLastNectar
     timeOfLastNectar = time()
