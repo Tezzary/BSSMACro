@@ -1,0 +1,1 @@
+This is code written by me in 2021 to automatically play a game called Bee Swarm Simulator for me. At the time there was no bots available that worked on Apple Mac's leading to me making my own.
